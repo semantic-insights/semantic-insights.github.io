@@ -21,6 +21,9 @@ jobs:
       - name: Build Zola site
         run: zola build
 
+      - name: Disable Jekyll
+        run: touch public/.nojekyll
+
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
         with:
