@@ -7,6 +7,11 @@ compile_sass = true
 # Whether to build a search index to be used later on by a JavaScript library
 build_search_index = true
 
+theme = "zolarwind"
+title = "Semantic Insights"
+description = "A blog on representing human knowledge in a machine accessible form"
+default_language = "en"
+
 [markdown]
 # Whether to do syntax highlighting
 # Theme can be customised by setting the `highlight_theme` variable to a theme supported by Zola
@@ -14,4 +19,6 @@ highlight_code = true
 
 [extra]
 # Put all your custom variables here
-theme = "zolarwind"
+title = "Semantic Insights"
+path_language_resources = "themes/zolarwind/i18n/"
+site_description = "A blog on representing human knowledge in a machine accessible form "
